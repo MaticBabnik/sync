@@ -1,0 +1,20 @@
+{
+    "name": "client",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "@types/events": "^3.0.3",
+        "typescript": "^5.2.2",
+        "vite": "^5.1.4"
+    },
+    "dependencies": {
+        "events": "^3.3.0",
+        "typed-emitter": "^2.1.0"
+    }
+}
